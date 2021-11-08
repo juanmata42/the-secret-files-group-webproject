@@ -1,0 +1,32 @@
+// Reset
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// Color Global Variables
+// Gray.
+$black-color: #000000;
+$white-color: #ffffff;
+$grey-principal: #c2c9d1;
+$grey-light: #e1e4e8;
+$grey-dark: #92979d;
+// Blue
+$blue-principal: #06080a;
+$blue-light: #618cfd;
+$blue-dark: #0b2057;
+// Red
+$red-principal: #d72638;
+$red-light: #eb929b;
+$red-dark: #a11c2a;
+//Yellow
+$yellow-principal: #f6cc18;
+$yellow-light: #fbe68b;
+$yellow-dark: #b99912;
+// Orange
+$orange-principal: #ff570a;
+$orange-light: #ffab84;
+$orange-dark: #bf4107;

@@ -1,0 +1,719 @@
+{
+  "users": [
+    {
+      "username": "ZQMBGN",
+      "favourites": [
+        {
+          "id": 1014987,
+          "name": "Firedrake",
+          "description": "",
+          "modified": "2010-11-18T15:58:52-0500",
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/8/a0/4cd0603234ecd",
+            "extension": "jpg"
+          },
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1014987",
+          "comics": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014987/comics",
+            "items": [],
+            "returned": 0
+          },
+          "series": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014987/series",
+            "items": [],
+            "returned": 0
+          },
+          "stories": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014987/stories",
+            "items": [],
+            "returned": 0
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1014987/events",
+            "items": [],
+            "returned": 0
+          },
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/characters/696/firedrake?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "comiclink",
+              "url": "http://marvel.com/comics/characters/1014987/firedrake?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            }
+          ]
+        },
+        {
+          "id": 1009248,
+          "name": "Fabian Cortez",
+          "description": "",
+          "modified": "1969-12-31T19:00:00-0500",
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/f0/4c0040603dda1",
+            "extension": "jpg"
+          },
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009248",
+          "comics": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009248/comics",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90344",
+                "name": "S.W.O.R.D. (2020) #5"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/94676",
+                "name": "S.W.O.R.D. (2020) #7"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/13841",
+                "name": "Uncanny X-Men (1981) #300"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/13842",
+                "name": "Uncanny X-Men (1981) #301"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/13843",
+                "name": "Uncanny X-Men (1981) #302"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/91780",
+                "name": "Way of X (2021) #5"
+              }
+            ],
+            "returned": 6
+          },
+          "series": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009248/series",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/31083",
+                "name": "S.W.O.R.D. (2020 - Present)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2258",
+                "name": "Uncanny X-Men (1981 - 2011)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/31392",
+                "name": "Way of X (2021 - Present)"
+              }
+            ],
+            "returned": 3
+          },
+          "stories": {
+            "available": 6,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009248/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/28110",
+                "name": "Legacies",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/28113",
+                "name": "Dominion!",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/28115",
+                "name": "Province",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/201736",
+                "name": "cover from S.W.O.R.D. (2020) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/204645",
+                "name": "cover from Way of X (2021) #5",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/210473",
+                "name": "cover from S.W.O.R.D. (2020) #7",
+                "type": "cover"
+              }
+            ],
+            "returned": 6
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1009248/events",
+            "items": [],
+            "returned": 0
+          },
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/characters/2695/fabian_cortez?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "wiki",
+              "url": "http://marvel.com/universe/Cortez,_Fabian?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "comiclink",
+              "url": "http://marvel.com/comics/characters/1009248/fabian_cortez?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            }
+          ]
+        },
+        {
+          "id": 1011035,
+          "name": "Satana",
+          "description": "",
+          "modified": "2011-08-11T12:02:11-0400",
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/a0/4ce5a46882aa9",
+            "extension": "jpg"
+          },
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011035",
+          "comics": {
+            "available": 33,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011035/comics",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40771",
+                "name": "Dark Avengers (2012) #176"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40776",
+                "name": "Dark Avengers (2012) #177"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40780",
+                "name": "Dark Avengers (2012) #178"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40773",
+                "name": "Dark Avengers (2012) #179"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40774",
+                "name": "Dark Avengers (2012) #180"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40778",
+                "name": "Dark Avengers (2012) #181"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40787",
+                "name": "Dark Avengers (2012) #182"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/40786",
+                "name": "Dark Avengers (2012) #183"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/30856",
+                "name": "Deadpool Team-Up Vol. 2: Special Relationship (Trade Paperback)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/55427",
+                "name": "Doctor Strange (2015) #13"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/55428",
+                "name": "Doctor Strange (2015) #14"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/5233",
+                "name": "Essential Marvel Horror Vol. 1 (Trade Paperback)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/39012",
+                "name": "Heroes for Hire (2010) #2 (2nd Printing Variant)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/16654",
+                "name": "Legion of Monsters (Hardcover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/15883",
+                "name": "Legion Of Monsters: Satana (2007) #1"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/10214",
+                "name": "Marvel Premiere (1972) #27"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/19779",
+                "name": "Marvel Preview (1975) #7"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/19705",
+                "name": "Marvel Team-Up (1972) #81"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/64734",
+                "name": "Spirits of Vengeance (2017) #1"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/65104",
+                "name": "Spirits of Vengeance (2017) #2"
+              }
+            ],
+            "returned": 20
+          },
+          "series": {
+            "available": 15,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011035/series",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/789",
+                "name": "Dark Avengers (2012 - 2013)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/10144",
+                "name": "Deadpool Team-Up Vol. 2: Special Relationship (2011)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/20457",
+                "name": "Doctor Strange (2015 - 2018)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/1765",
+                "name": "Essential Marvel Horror Vol. 1 (2006)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/13330",
+                "name": "Heroes for Hire (2010 - 2011)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2961",
+                "name": "Legion of Monsters (2007)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2412",
+                "name": "Legion Of Monsters: Satana (2007)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2045",
+                "name": "Marvel Premiere (1972 - 1981)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/3718",
+                "name": "Marvel Preview (1975 - 1981)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/3716",
+                "name": "Marvel Team-Up (1972 - 1985)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/23587",
+                "name": "Spirits of Vengeance (2017)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/18527",
+                "name": "Thunderbolts (2006 - 2012)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2089",
+                "name": "Vampire Tales (1973 - 1975)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/11702",
+                "name": "Women of Marvel (2010)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/1035",
+                "name": "X-Factor (2005 - 2013)"
+              }
+            ],
+            "returned": 15
+          },
+          "stories": {
+            "available": 48,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011035/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/19928",
+                "name": "Deathcry!",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/19929",
+                "name": "Deathsong",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/19930",
+                "name": "Satana, the Devil's Daughter",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/20386",
+                "name": "[Introducing Satana]",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/20390",
+                "name": "The Kiss of Death",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/32438",
+                "name": "1 of 1",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42071",
+                "name": "Cover #42071",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42072",
+                "name": "pin-up",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42073",
+                "name": "textpiece: Why A Devil's Daughter...?",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42074",
+                "name": "Damnation Waltz (Part1)",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42075",
+                "name": "The Devil's Symphony (Part 2)",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/42076",
+                "name": "textpiece: From the Devil, A Daughter",
+                "type": ""
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/76535",
+                "name": "Cover #76535",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/78867",
+                "name": "Thunderbolts (2006) #156",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/80618",
+                "name": "DEADPOOL TEAM-UP VOL. 2: SPECIAL RELATIONSHIP TPB",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/82690",
+                "name": "Interior #82690",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/88547",
+                "name": "Heroes for Hire #2 2nd Printing",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/92366",
+                "name": "Dark Avengers (2012) #176",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/92367",
+                "name": "Interior #92367",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/92370",
+                "name": "Dark Avengers (2012) #179",
+                "type": "cover"
+              }
+            ],
+            "returned": 20
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011035/events",
+            "items": [],
+            "returned": 0
+          },
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/characters/1997/satana?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "wiki",
+              "url": "http://marvel.com/universe/satana?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "comiclink",
+              "url": "http://marvel.com/comics/characters/1011035/satana?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            }
+          ]
+        },
+        {
+          "id": 15276,
+          "title": "5 Ronin (2011)",
+          "description": null,
+          "resourceURI": "http://gateway.marvel.com/v1/public/series/15276",
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/comics/series/15276/5_ronin_2011?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            }
+          ],
+          "startYear": 2011,
+          "endYear": 2011,
+          "rating": "",
+          "type": "",
+          "modified": "2011-05-20T16:25:29-0400",
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+            "extension": "jpg"
+          },
+          "creators": {
+            "available": 11,
+            "collectionURI": "http://gateway.marvel.com/v1/public/series/15276/creators",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/750",
+                "name": "David Aja",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/162",
+                "name": "John Cassaday",
+                "role": "penciller (cover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/645",
+                "name": "Laurence Campbell",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/273",
+                "name": "Leandro Fernandez",
+                "role": "penciller"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                "name": "Vc Joe Caramagna",
+                "role": "letterer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/1421",
+                "name": "Tomm Coker",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/11560",
+                "name": "Dalibor Talajic",
+                "role": "inker"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/8309",
+                "name": "Daniel Freedman",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/593",
+                "name": "Lee Loughridge",
+                "role": "colorist"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/94",
+                "name": "Peter Milligan",
+                "role": "writer"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                "name": "Jeff Youngquist",
+                "role": "artist"
+              }
+            ],
+            "returned": 11
+          },
+          "characters": {
+            "available": 4,
+            "collectionURI": "http://gateway.marvel.com/v1/public/series/15276/characters",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009268",
+                "name": "Deadpool"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+                "name": "Hulk"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009515",
+                "name": "Punisher"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009718",
+                "name": "Wolverine"
+              }
+            ],
+            "returned": 4
+          },
+          "stories": {
+            "available": 7,
+            "collectionURI": "http://gateway.marvel.com/v1/public/series/15276/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/80038",
+                "name": "Interior #80038",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/80052",
+                "name": "5 RONIN 3 AJA COVER  ",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/80749",
+                "name": "5 Ronin #2",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/89880",
+                "name": "5 Ronin #1 ",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/90404",
+                "name": "5 Ronin #5",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/93074",
+                "name": "5 Ronin HC",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/93075",
+                "name": "5 Ronin HC DM Only Variant",
+                "type": "cover"
+              }
+            ],
+            "returned": 7
+          },
+          "comics": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/series/15276/comics",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/41112",
+                "name": "5 Ronin (Hardcover)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/41113",
+                "name": "5 Ronin (Hardcover)"
+              }
+            ],
+            "returned": 2
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/series/15276/events",
+            "items": [],
+            "returned": 0
+          },
+          "next": null,
+          "previous": null
+        },
+        {
+          "id": 1010876,
+          "name": "Mongoose",
+          "description": "",
+          "modified": "1969-12-31T19:00:00-0500",
+          "thumbnail": {
+            "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4c00359f53bde",
+            "extension": "jpg"
+          },
+          "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010876",
+          "comics": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010876/comics",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/11719",
+                "name": "Thor (1966) #391"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/63997",
+                "name": "Thor Epic Collection: In Mortal Flesh (Trade Paperback)"
+              }
+            ],
+            "returned": 2
+          },
+          "series": {
+            "available": 2,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010876/series",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/2083",
+                "name": "Thor (1966 - 1996)"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/23289",
+                "name": "Thor Epic Collection: In Mortal Flesh (2017)"
+              }
+            ],
+            "returned": 2
+          },
+          "stories": {
+            "available": 3,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010876/stories",
+            "items": [
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/17082",
+                "name": "Thor (1966) #391",
+                "type": "interiorStory"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/67042",
+                "name": "THOR (1966) #391",
+                "type": "cover"
+              },
+              {
+                "resourceURI": "http://gateway.marvel.com/v1/public/stories/138959",
+                "name": "cover from THOR EPIC COLLECTION: IN MORTAL FLESH TPB (2017) #1",
+                "type": "cover"
+              }
+            ],
+            "returned": 3
+          },
+          "events": {
+            "available": 0,
+            "collectionURI": "http://gateway.marvel.com/v1/public/characters/1010876/events",
+            "items": [],
+            "returned": 0
+          },
+          "urls": [
+            {
+              "type": "detail",
+              "url": "http://marvel.com/characters/1489/mongoose?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "wiki",
+              "url": "http://marvel.com/universe/Mongoose?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            },
+            {
+              "type": "comiclink",
+              "url": "http://marvel.com/comics/characters/1010876/mongoose?utm_campaign=apiRef&utm_source=0e8650a7d239f1e59cdbe59932b885fd"
+            }
+          ]
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

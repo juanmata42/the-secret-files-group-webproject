@@ -1,0 +1,132 @@
+@import '../../App.scss';
+
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.containerForm {
+  align-items: center;
+  background-color: $grey-light;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-register {
+  background-color: $grey-principal;
+
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width: 320px;
+}
+
+.title-register {
+  color: $orange-principal;
+  font-family: $title-font;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.subtitle {
+  color: $white-color;
+  font-family: $general-font;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 20px;
+}
+
+.input-register {
+  background-color: $grey-dark;
+  border: 0;
+  box-sizing: border-box;
+  color: $white-color;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  background-color: $black-color;
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input-register:focus ~ .cut,
+.input-register:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: $grey-dark;
+  font-family: $general-font;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input-register:focus ~ .placeholder,
+.input-register:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input-register:not(:placeholder-shown) ~ .placeholder {
+  color: $grey-dark;
+}
+
+.input-register:focus ~ .placeholder {
+  color: $red-principal;
+}
+
+.submit-register {
+  background-color: $orange-principal;
+
+  border: 0;
+  box-sizing: border-box;
+  color: $white-color;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+
+  text-align: center;
+  width: 100%;
+}
+
+.submit-register:active {
+  background-color: $blue-principal;
+}

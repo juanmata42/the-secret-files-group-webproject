@@ -1,0 +1,216 @@
+// Reset
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+// Color Global Variables
+// Gray.
+$black-color: #000000;
+$white-color: #ffffff;
+$grey-principal: #c2c9d1;
+$grey-light: #e1e4e8;
+$grey-dark: #92979d;
+// Blue
+$blue-principal: #3c65ba;
+$blue-light: #618cfd;
+$blue-dark: #0b2057;
+// Red
+$red-principal: #d72638;
+$red-light: #eb929b;
+$red-dark: #a11c2a;
+//Yellow
+$yellow-principal: #f6cc18;
+$yellow-light: #fbe68b;
+$yellow-dark: #b99912;
+// Orange
+$orange-principal: #ff570a;
+$orange-light: #ffab84;
+$orange-dark: #bf4107;
+
+//  FONTS ----------------------
+
+@font-face {
+  font-family: 'MayorForce';
+  font-style: normal;
+  src: local('Mayor Force Regular'),
+    url('./fonts/major_force_titles/majorforce.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MayorForce Expanded';
+  font-style: normal;
+  src: local('Mayor Force Expanded Regular'),
+    url('./fonts/major_force_titles/majorforceexpand.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MayorForce Expanded';
+  font-style: italic;
+  src: local('Mayor Force Expanded italic'),
+    url('./fonts/major_force_titles/majorforceexpandital.ttf')
+      format('truetype');
+}
+@font-face {
+  font-family: 'MayorForce Expanded';
+  font-style: oblique;
+  src: local('Mayor Force Expanded oblique'),
+    url('./fonts/major_force_titles/majorforceexpandleft.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'MayorForce Laser';
+  font-style: normal;
+  src: local('Mayor Force Laser Regular'),
+    url('./fonts/major_force_titles/majorforcelaser.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MayorForce Laser';
+  font-style: italic;
+  src: local('Mayor Force Laser Italic'),
+    url('./fonts/major_force_titles/majorforcelaserital.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'MayorForce Laser';
+  font-style: oblique;
+  src: local('Mayor Force Laser Oblique'),
+    url('./fonts/major_force_titles/majorforcelaserleft.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'American Kestral';
+  font-style: normal;
+  src: local('American Kestral Regular'),
+    url('./fonts/american_kestrel_logo/americankestralstraight1_2.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'American Kestral';
+  font-style: italic;
+  src: local('American Kestral Italic'),
+    url('./fonts/american_kestrel_logo/americankestralsemistraight1_2.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Regular'),
+    url('./fonts/Lato_text/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Lato Italic'),
+    url('./fonts/Lato_text/Lato-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Lato Bold'),
+    url('./fonts/Lato_text/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Lato Bold Italic'),
+    url('./fonts/Lato_text/Lato-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: lighter;
+  src: local('Lato Light'),
+    url('./fonts/Lato_text/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: lighter;
+  src: local('Lato Italic Light '),
+    url('./fonts/Lato_text/Lato-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Black Normal Regular'),
+    url('./fonts/Lato_text/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Black';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Lato Black Italic Regular'),
+    url('./fonts/Lato_text/Lato-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lato Thin Normal Regular'),
+    url('./fonts/Lato_text/Lato-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato Thin';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Lato Thin Italic Regular'),
+    url('./fonts/Lato_text/Lato-ThinItalic.ttf') format('truetype');
+}
+// Font Global Variables
+$logo-font: 'American Kestral';
+$title-font: 'MayorForce';
+$general-font: 'Lato';
+$general-font-strong: 'Lato Black';
+$general-font-light: 'Lato Thin';
+@media screen and (min-width: 600px) {
+  html {
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('./assets/2014298.jpg');
+    background-size: cover;
+  }
+}
+html {
+  background-color: $grey-light;
+}
+
+button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+button:hover {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+
+button:focus {
+  outline: 0;
+}

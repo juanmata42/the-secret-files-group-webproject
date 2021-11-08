@@ -1,0 +1,49 @@
+Todos los comentarios que haré empezarán con un qwerty para que sean fáciles de encontrar con ctrl f
+y puedan borrarse rápido
+
+-----------------------------
+
+La carpeta scannerwork, debería entrar en gitignore, igual que la de coverage.
+contienen info de sonnarqube y el coverage de los test, en ese orden.
+La primera se genera al pasar el sonnarqube, la segunda al correr el comando:
+
+npm test -- --watchAll --coverage
+
+como esto es algo que podemos hacer cada uno desde su ordenador, así debería ser.
+Para ver la página de coverage, dentro de la carpeta coverage, dentro de la carpeta icov-report,
+simplemente abrir el archivo index.html en el navegador. El archivo se actualiza cada vez que corres el
+comando.
+
+sobre como mostrar el coverage en el sonnarqube, no recuerdo lo que dijo alejandro,
+tendréis que mirar la documentación, lo siento
+
+--------------------
+
+creo que después de la limpia que hice, todo lo que queda en la carpeta assets es necesario.
+a veces salta un warning por que dice que falta el archivo portrait_uncanny.jpg, pero está en la carpeta
+
+--------------------
+
+en la carpeta auth, el archivo protected-route.js es necesario y sirve para  que si no estás logueado,
+no puedas entrar en los paths reservados para usuarios, aun cuando los pongas en la barra a mano
+
+---------------------------
+
+hay que tener cuidado con qué ponemos en las dependencies de los useEffect
+(el array que suele estar vacío al final)
+si genera un bucle infinito y no lo cerráis enseguida, os va a dejar sin api de nuevo.
+si eso pasa, en trello dejé una guía corta de como  preparar otro link con las dos keys que te da
+una cuenta nueva
+
+--------------------------
+
+el archivo flickity en la carpeta carrousel no hace falta testearlo, se bajó tal cual estaba
+Puede crear un warning porque los botones que te permiten navegar por el carrousel
+(las barras) son una lista de li y no tienen keys. No sé cómo añadir las keys, lo he buscado
+y no encuentro. de todas formas, no es importante.
+
+-----------------------
+
+sharebtn no está usado de momento. si después del finde no se usa, recomiendo borrar esa carpeta
+era un componente con la idea de manejar el botón de favoritos, por no llenar más el componente
+tarjeta

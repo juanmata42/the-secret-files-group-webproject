@@ -1,0 +1,80 @@
+@import '../../App.scss';
+.carrouselTitle {
+  font-family: $title-font;
+  color: $blue-principal;
+  font-size: 4vh;
+  letter-spacing: 0.3vh;
+  margin: 1vh;
+}
+/*position dots up a bit*/
+.flickity-page-dots {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 1vh;
+}
+.slide {
+  margin-right: 1vh;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+  height: 1vh;
+  width: 4vh;
+  border-radius: 0;
+  background-color: $blue-principal;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: $red-principal;
+}
+/* no circle */
+.flickity-button {
+  background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+  text-transform: none;
+  border-style: none;
+  position: absolute;
+  bottom: 45%;
+}
+.next {
+  right: 5vw;
+}
+.previous {
+  left: 5vw;
+}
+
+.flickity-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #19f;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: rgba(128, 128, 128, 0.7);
+}
+/* hide disabled button */
+.flickity-button:disabled {
+  display: none;
+}
+ol,
+li {
+  list-style-type: none;
+}
+:focus-visible {
+  outline: none;
+}
+@media screen and (max-width: 600px) {
+  .flickity-page-dots {
+    display: none;
+  }
+  .flickity-button {
+    display: none;
+  }
+}

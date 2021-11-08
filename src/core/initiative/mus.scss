@@ -1,0 +1,61 @@
+@import '../../App.scss';
+.speech-box {
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0.5vh;
+  right: 0.5vh;
+  z-index: 10;
+}
+.speech-box__btn {
+  cursor: pointer;
+  font-size: 3vh;
+  margin: 1vh;
+}
+.pause-btn {
+  color: white;
+  display: none;
+}
+.speech__result {
+  position: absolute;
+  bottom: 2.5vh;
+  right: 6vh;
+  z-index: 10;
+  color: black;
+  font-family: $general-font;
+  font-weight: 800;
+}
+.capitanGerard {
+  position: absolute;
+  bottom: 50vh;
+  right: 50vh;
+  height: 20vh;
+  width: auto;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  z-index: 25;
+}
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

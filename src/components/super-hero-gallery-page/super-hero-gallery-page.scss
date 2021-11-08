@@ -1,0 +1,14 @@
+@import '../../App.scss';
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  gap: 2vh;
+}
+.list-container__item {
+  height: 45vh;
+  width: 30vh;
+}

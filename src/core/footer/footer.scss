@@ -1,0 +1,40 @@
+@import '../../App.scss';
+
+.footer {
+  display: flex;
+  font-family: $general-font;
+  background-color: $blue-principal;
+  align-items: center;
+  height: 7vh;
+  max-height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.logo-footer {
+  height: 50px;
+}
+
+.rrss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rrss__icon {
+  margin-left: 30px;
+}
+
+.copyright {
+  display: inline-block;
+  font-weight: 700;
+  color: $white-color;
+}
+
+.container-copyright-rrss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,87 @@
+@import '../../App.scss';
+.card {
+  background-image: url(../../assets/portrait_uncanny.jpg);
+  background-size: contain;
+  height: 45vh;
+  width: 30vh;
+  position: relative;
+}
+.card__img {
+  height: 100%;
+  width: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .appearOnHover {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: $yellow-principal;
+    height: 12vh;
+    width: 30vh;
+  }
+  .card:hover .appearOnHover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .appearOnHover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: $yellow-principal;
+    position: relative;
+    margin-top: -7.4vh;
+    height: 7vh;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+.card__title {
+  font-family: $general-font;
+  margin: 1vh;
+  font-size: 2.5vh;
+  width: 20vh;
+}
+.card__btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.addFav {
+  height: 4vh;
+  width: 4vh;
+}
+.shieldFav {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+}
+.shieldFav:hover {
+  filter: grayscale(0);
+}
+.shareBtn {
+  filter: grayscale(100%);
+}
+.shareBtn:hover {
+  filter: grayscale(0);
+  color: $yellow-principal;
+}
+
+@media screen and (max-width: 600px) {
+  .appearOnHover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: $yellow-principal;
+    position: absolute;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+  }
+}

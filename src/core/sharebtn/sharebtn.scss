@@ -1,0 +1,18 @@
+.share-btn-window {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.555);
+  z-index: 15;
+  padding: 5%;
+}
+.share-btn-window__closer {
+  color: white;
+  margin: 1vh;
+}

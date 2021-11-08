@@ -1,0 +1,14 @@
+@import '../../App.scss';
+.ImgTitle {
+  background-color: #618cfd;
+  margin: 0;
+  height: auto;
+  overflow: hidden;
+}
+.ImgTitle__photo {
+  object-fit: cover;
+  object-position: -20% 0;
+  height: 15vh;
+}
+@media screen and (max-width: 600px) {
+}
